@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "Hotstar1"
+  bucket = "hotstar1"
 
   tags = {
-    Name        = "Hotstar1"
+    Name        = "hotstar1"
     Environment = "dev"
   }
 }
@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "bucket2" {
   bucket = "hotstar2"
 
   tags = {
-    Name        = "Hotstar2"
+    Name        = "hotstar2"
     Environment = "dev"
   }
 }
